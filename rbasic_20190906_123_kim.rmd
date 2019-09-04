@@ -1,0 +1,38 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+#EXercise 3.6.1 
+library(dslabs)
+data(murders)
+print(murders)
+murders$state
+str(murders)
+#Answer c 
+
+#Exercise 3.6.2 
+murders[1,]
+colnames(murders)
+#Answer [1] "state"      "abb"        "region"     "population"
+#Answer [5] "total" 
+
+#Exercise 3.6.3
+a <-murders$abb
+class("a")
+#Answer class 
+
+#Exercise 3.6.4
+b <- murders[,2]
+identical(a,b)
+
+#Exercise 3.6.5
+length(levels(murders$region))
+
+#Exercise 3.6.6
+table(murders$region)
+
+```
