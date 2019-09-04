@@ -1,0 +1,25 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+```{r 3.3 Exercises, echo=TRUE}
+n <-100
+x <-seq (1,n)
+n
+sum(x) 
+
+n <-1000 
+sum(x)
+```
+
+Question 3. Answer B. 
+
+```{r 3.3 Exercises 4., echo=TRUE}
+log(sqrt(100),base = 10)
+```
+Question 5. 
+Answer C 
